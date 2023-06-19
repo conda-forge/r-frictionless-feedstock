@@ -1,11 +1,11 @@
-About r-frictionless
-====================
+About r-frictionless-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-frictionless-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/frictionlessdata/frictionless-r, https://docs.ropensci.org/frictionless/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-frictionless-feedstock/blob/main/LICENSE.txt)
 
 Summary: Read and write Frictionless Data Packages. A 'Data Package' (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.
 
