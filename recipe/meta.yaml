@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/frictionless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/frictionless/frictionless_{{ version }}.tar.gz
-  sha256: 5cedeeb92ae6044fec5ae874cd7757349d8f0fa8197bfc9d25534d2b47914120
+  sha256: 48a13fe3a816459c32c54b3e606ec880d4cc4eb76973b3afd801f740e52908b8
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
