@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/frictionless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/frictionless/frictionless_{{ version }}.tar.gz
-  sha256: d93e1686d4865fd06214085dc38cbbb196a3e2e1e2b4bc85b1cabbe5b0040f93
+  sha256: f6752280ccf142078a8ae6c097c5d52286465f9538a2449f33b0b44484c1bf11
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -51,7 +51,8 @@ test:
 about:
   home: https://github.com/frictionlessdata/frictionless-r, https://docs.ropensci.org/frictionless/
   license: MIT
-  summary: Read and write Frictionless Data Packages. A 'Data Package' (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open datasets.
+  summary: Read and write Frictionless Data Packages. A 'Data Package' (<https://specs.frictionlessdata.io/data-package/>) is a simple container format and standard to describe and package a collection of (tabular) data. It is typically used to publish FAIR (<https://www.go-fair.org/fair-principles/>) and open 
+    datasets.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
