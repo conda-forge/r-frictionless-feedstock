@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/frictionless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/frictionless/frictionless_{{ version }}.tar.gz
-  sha256: f6752280ccf142078a8ae6c097c5d52286465f9538a2449f33b0b44484c1bf11
+  sha256: 30431cd300846a4ef6cde1d3881e3a6b074cf5664f4020d06f8f9ce373cdf789
 
 build:
   number: 0
